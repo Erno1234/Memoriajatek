@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+main{
+    margin: auto;
+    width: 90%;
+}
+img{
+    width: 100%;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+div{
+    border:1px solid black;
+    padding:5px;
+    border-radius: 5px;
+}
+section #also{
+    margin-top: 40px;
+    border-top: 5px solid black;
+}
