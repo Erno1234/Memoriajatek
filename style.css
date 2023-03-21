@@ -1,7 +1,17 @@
 *{box-sizing: border-box;}
+body{
+    background-color: #EDF5E1;
+}
+h1{
+    padding:5px;
+    color: #EDF5E1;
+    font-size: larger;
+}
 main{
+    background-color: #05386B;
+    border: 2px solid black;
     margin: auto;
-    width: 90%;
+    width: 60%;
 }
 img{
     width: 100%;
@@ -16,7 +26,10 @@ div{
     padding:5px;
     border-radius: 5px;
 }
-section #also{
-    margin-top: 40px;
+main #also{
+    padding: 10px;
     border-top: 5px solid black;
+}
+main #felso{
+    margin:10px
 }
